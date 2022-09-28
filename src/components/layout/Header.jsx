@@ -33,7 +33,7 @@ const Header = () => {
               </Link>
                 </li>
                 <li className="nav-item">
-              <Link to="/faqs" style={linkstyle}>
+              <Link to="/background" style={linkstyle}>
                   <a className="nav-link" href="/">
                     Safe
                   </a>
@@ -47,14 +47,14 @@ const Header = () => {
               </Link>
                 </li>
                 <li className="nav-item">
-              <Link to="/contact" style={linkstyle}>
+              <Link to="/" style={linkstyle}>
                   <a className="nav-link" href="/">
                     Developers
                   </a>
               </Link>
                 </li>
                 <li className="nav-item">
-              <Link to="/contact" style={linkstyle}>
+              <Link to="/" style={linkstyle}>
                   <a className="nav-link" href="/">
                     Careers
                   </a>

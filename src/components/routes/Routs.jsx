@@ -3,10 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Base from '../layout/Base';
 import Home from '../pages/Home';
-import Faq from '../pages/Faq';
-import Faqs from '../untils/Faqs';
-import Contact from '../pages/Contact';
 import PageNotFound from '../pages/PageNotFound';
+import Background from '../pages/Background';
 
 
 const Routs = () => {
@@ -16,9 +14,7 @@ const Routs = () => {
       <Base>
         <Routes>
           <Route index path='/' element={<Home />}/>
-          <Route path='/faqs' element={<Faqs />}/>
-          <Route path='/faq' element={<Faq />}/>
-          <Route path='/contact' element={<Contact />}/>
+          <Route path='/background' element={<Background />}/>
           <Route path='/*' element={<PageNotFound />}/>
         </Routes>
       </Base>

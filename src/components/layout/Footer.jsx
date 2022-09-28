@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-contact pt-5 pb-4">
             <div className="row">
-              <div className="col-xl-3 col-md-3">
+              <div className="col-xl-3 col-md-3 col-6">
                 <div className="footer-col-1">
                 <ul>
                   <li><a href="/" className="fw-normal">Imprint</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
                 </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-md-3">
+              <div className="col-xl-3 col-md-3 col-6">
               <div className="footer-col-2">
                 <ul>
                   <li><a href="/"> Conditional Tokens</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                 </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-md-3">
+              <div className="col-xl-3 col-md-3  col-6">
               <div className="footer-col-3">
                 <ul>
                   <li><a href="/">Developers</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-md-3">
+              <div className="col-xl-3 col-md-3 col-6">
               <div className="footer-col-4">
                 <ul>
                   <li><a href="/"><div className="roundedFixedBtn-social mb-2"><BsTwitter /></div></a></li>
