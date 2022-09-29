@@ -6,7 +6,7 @@ const Base = (props) => {
   return (
     <>
     <Header />
-    <div className='mt-5'>
+    <div className=''>
     {props.children}
     </div>
     <Footer />
